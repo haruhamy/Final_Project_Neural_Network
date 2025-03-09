@@ -433,7 +433,8 @@ with col3:
             # {label_name.get(pred_labels[0])}
             result_placeholder.html(f"""
                 <div class='result-container'>
-                    <h3 class='result-title'>Prediction: {label_nutrition.get(pred_labels[0])["name"]}</h3>
+                    <h3 class='result-title'>Name: {label_nutrition.get(pred_labels[0])["name"]}</h3>
+                    <p>Thành phần dinh dưỡng có trong 100 gram {label_nutrition.get(pred_labels[0])["name"]}:</p>
                     <p><strong>Calories:</strong> {label_nutrition.get(pred_labels[0])["calories"]} kcal</p>
                     <p><strong>Carbohydrates:</strong> {label_nutrition.get(pred_labels[0])["carbohydrates"]} g</p>
                     <p><strong>Protein:</strong> {label_nutrition.get(pred_labels[0])["protein"]} g</p>
