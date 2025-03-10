@@ -412,12 +412,12 @@ with col2:
     
 
 with col3:
-    st.html("""<p style="border-bottom:1px solid #7f7f7f">Classification Result</p>""")
+    st.html("""<p style="border-bottom:1px solid #7f7f7f">Kết quả phân loại</p>""")
     
     result_placeholder = st.empty()
     
     if uploaded_file is not None and model_loaded:
-        with st.spinner('Analyzing image...'):
+        with st.spinner('đang phân tích hình ảnh...'):
             time.sleep(1)
             
             test_image = img.resize((224, 224))
@@ -426,11 +426,6 @@ with col3:
             
             result = model.predict(test_image)
             pred_labels = np.argmax(result, axis=1)
-            # category: {label_name.get(pred_labels[0])}<br/>
-            # in 100gram:
-            # average calories:{label_name.get(pred_labels[0])}
-            # {label_name.get(pred_labels[0])}
-            # {label_name.get(pred_labels[0])}
             result_placeholder.html(f"""
                 <div class='result-container'>
                     <h3 class='result-title'>Name: {label_nutrition.get(pred_labels[0])["name"]}</h3>
@@ -438,10 +433,9 @@ with col3:
                     <p><strong>Calories:</strong> {label_nutrition.get(pred_labels[0])["calories"]} kcal</p>
                     <p><strong>Carbohydrates:</strong> {label_nutrition.get(pred_labels[0])["carbohydrates"]} g</p>
                     <p><strong>Protein:</strong> {label_nutrition.get(pred_labels[0])["protein"]} g</p>
-                    <p><strong>Fat:</strong> {label_nutrition.get(pred_labels[0])["fat"]} g</p>
-                    <p><strong>Fiber:</strong> {label_nutrition.get(pred_labels[0])["fiber"]} g</p>
-                    <p><strong>Sugar:</strong> {label_nutrition.get(pred_labels[0])["sugar"]} g</p>
-                    <p><strong>Description:</strong> {label_nutrition.get(pred_labels[0])["description"]}</p>
+                    <p><strong>Chất béo:</strong> {label_nutrition.get(pred_labels[0])["fat"]} g</p>
+                    <p><strong>chất xơ:</strong> {label_nutrition.get(pred_labels[0])["fiber"]} g</p>
+                    <p><strong>Mô tả:</strong> {label_nutrition.get(pred_labels[0])["description"]}</p>
                 </div>
             """)
 
