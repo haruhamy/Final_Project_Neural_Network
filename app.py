@@ -397,7 +397,7 @@ with col1:
     <p>2. Chờ model phân tích hình ảnh.</p>
     <p>3. Kết quả sau khi phân tích sẽ hiển thị ở bên phải.</p>
     <p>Note: những rau củ quả có thể phân loại gồm:
-    Đậu, Mướp đắng, Bầu, Cà tím, Bông cải xanh, Bắp cải, Ớt chuông, Cà rốt, Súp lơ, Dưa chuột, Đu đủ, Khoai tây, Bí ngô, Củ cải, Cà chua.</p>    
+    Đậu, Mướp đắng, Bầu, Cà, Bông cải xanh, Bắp cải, Ớt chuông, Cà rốt, Bông cải trắng, Dưa chuột, Đu đủ, Khoai tây, Bí ngô, Củ cải trắng, Cà chua.</p>    
     </p>
     """)
 
