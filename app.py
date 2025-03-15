@@ -158,23 +158,22 @@ label_nutrition = {
         Hỗ trợ giảm đau khớp và viêm nhiễm."""
     },
     3: {
-        "name": "Cà tím",
+        "name": "Cà",
         "calories": 25,
         "protein": 1.0,
         "fat": 0.2,
         "fiber": 3.0,
         "carbohydrates": 6.0,
         "sugar": 2.7,
-        "description": """Cà tím giàu chất chống oxy hóa, giúp bảo vệ tim mạch. 
-        Giúp giảm cholesterol và kiểm soát huyết áp. 
-        Hỗ trợ tiêu hóa và giảm nguy cơ táo bón. 
-        Cung cấp chất xơ giúp kiểm soát cân nặng. 
-        Chứa flavonoid giúp cải thiện trí nhớ. 
-        Giúp kiểm soát đường huyết và giảm nguy cơ tiểu đường. 
-        Chứa anthocyanin giúp bảo vệ tế bào não. 
-        Giúp thanh lọc cơ thể và giảm độc tố. 
-        Tăng cường sức khỏe xương và răng. 
-        Hỗ trợ quá trình trao đổi chất và cung cấp năng lượng."""
+        "description": """Cà Cung cấp nhiều chất xơ, giúp hỗ trợ tiêu hóa và ngăn ngừa táo bón.
+        Chứa lượng nhỏ protein thực vật, giúp cung cấp năng lượng cho cơ thể.
+        Giàu chất chống oxy hóa, giúp bảo vệ tế bào khỏi tổn thương.
+        Hỗ trợ sức khỏe tim mạch nhờ hàm lượng kali giúp kiểm soát huyết áp.
+        Có lợi cho hệ vi khuẩn đường ruột khi được lên men tự nhiên.
+        Chứa vitamin nhóm B, giúp duy trì hệ thần kinh khỏe mạnh.
+        Hỗ trợ hấp thu sắt nhờ vitamin C, giúp ngăn ngừa thiếu máu.
+        Ít calo, phù hợp với người muốn kiểm soát cân nặng.
+        Giúp kích thích vị giác, tăng cảm giác ngon miệng trong bữa ăn."""
     },
     4: {
         "name": "Bông cải xanh",
@@ -253,7 +252,7 @@ label_nutrition = {
         Tăng cường trí nhớ và sức khỏe não bộ."""
     },
     8: {
-        "name": "Súp lơ (Bông cải trắng)",
+        "name": "Bông cải trắng",
         "calories": 25,
         "protein": 1.9,
         "fat": 0.3,
@@ -348,14 +347,14 @@ label_nutrition = {
         Hỗ trợ giảm căng thẳng và cải thiện giấc ngủ."""
     },
     13: {
-        "name": "Củ cải",
+        "name": "Củ cải trắng",
         "calories": 16,
         "protein": 0.6,
         "fat": 0.1,
         "fiber": 1.6,
         "carbohydrates": 3.4,
         "sugar": 1.9,
-        "description": """Củ cải giúp thanh lọc cơ thể và hỗ trợ giải độc gan.
+        "description": """Củ cải trắng giúp thanh lọc cơ thể và hỗ trợ giải độc gan.
         Hỗ trợ hệ tiêu hóa và giúp giảm táo bón.
         Giúp kiểm soát huyết áp nhờ kali.
         Giàu vitamin C giúp tăng cường hệ miễn dịch.
